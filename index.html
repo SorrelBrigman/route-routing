@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Route Routing</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body ng-app>
+  <body ng-app="routeRouterApp">
     <nav>
       <ul>
-        <li><a>Home</a></li>
-        <li><a>The 101</a></li>
-        <li><a>The AntebellumTrail</a></li>
+        <li><a href="#!/">Home</a></li>
+        <li><a href="#!/first">The 101</a></li>
+        <li><a href="#!/second">The AntebellumTrail</a></li>
       </ul>
+    <nav>
+
     <div ng-view></div>
 
     <script type="text/javascript" src="bower_components/angular/angular.js"></script>
