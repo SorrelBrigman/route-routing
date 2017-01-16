@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <title>Route Routing</title>
   </head>
-  <body>
+  <body ng-app>
+    <nav>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>The 101</a></li>
+        <li><a>The AntebellumTrail</a></li>
+      </ul>
+    <div ng-view></div>
 
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
