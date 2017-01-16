@@ -16,7 +16,7 @@ app.config(($routeProvider) => {
   .when("/second", {
     controller: "SecondHighwayCtrl",
     templateUrl: "partials/secondhighway.html"
-  })
+  }).otherwise({redirectTo: '/'})
 })
 
 
